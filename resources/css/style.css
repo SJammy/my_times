@@ -1,4 +1,32 @@
-* {
-	font-family: san-serif;
+header {
+	display: flex;
+	justify-content: space-between;
+	font-family: Verdana, san-serif;
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: black solid 1px;
+	padding-bottom: 5px;
+
 }
 
+.logo_title {
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+/*
+.logo_title div {
+	padding: 10px;
+}
+*/
+
+h3 {
+	color: mediumaquamarine;
+	padding-left: 10px;
+}
+
+nav li{
+	display:inline-block;
+	padding: 10px;
+	text-decoration: underline;
+}
